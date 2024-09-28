@@ -1,0 +1,90 @@
+/* General styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f4f8; /* Light background color */
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* App container styles */
+  .app-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Heading styles */
+  h1 {
+    text-align: center;
+    color: #3f51b5; /* Darker blue for heading */
+    margin-bottom: 20px;
+  }
+  
+  /* Form styles */
+  .task-form {
+    background-color: #ffffff; /* White background for form */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+  }
+  
+  /* Button styles */
+  .task-form button {
+    background-color: #3f51b5; /* Button color */
+    transition: background-color 0.3s ease;
+  }
+  
+  .task-form button:hover {
+    background-color: #283593; /* Darker shade on hover */
+  }
+  
+  /* Task list styles */
+  .task-list {
+    list-style-type: none; /* Remove bullets */
+    padding: 0;
+  }
+  
+  .task-item {
+    background-color: #ffffff; /* White background for tasks */
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+  }
+  
+  .task-item:hover {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Shadow on hover */
+  }
+  
+  /* Task details */
+  .task-item strong {
+    color: #3f51b5; /* Darker blue for task title */
+  }
+  
+  /* Button styles for tasks */
+  .task-item button {
+    margin-top: 10px;
+    padding: 8px 12px;
+    background-color: #ff5a5f; /* Delete button color */
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .task-item button:hover {
+    background-color: #e03e42; /* Darker shade on hover */
+  }
+  
+  /* Edit button style */
+  .task-item button.edit {
+    background-color: #28a745; /* Edit button color */
+  }
+  
+  .task-item button.edit:hover {
+    background-color: #218838; /* Darker shade on hover */
+  }
+  

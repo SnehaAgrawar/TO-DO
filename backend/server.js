@@ -2,6 +2,7 @@ const express = require('express');
 const bodyParser = require('body-parser');
 const cors = require('cors');
 const taskRoutes = require('./routes/taskRouter');
+const userRoutes = require('./routes/userRouter'); 
 
 const app = express();
 const PORT = 5000;
@@ -10,10 +11,11 @@ const PORT = 5000;
 app.use(cors());
 app.use(bodyParser.json());
 
-// Router
+// Routes
 app.use('/api', taskRoutes);
+app.use('/api', userRoutes); 
 
-// Start the server
+// Start server
 app.listen(PORT, () => {
   console.log(`Server running on http://localhost:${PORT}`);
 });

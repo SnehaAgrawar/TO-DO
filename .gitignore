@@ -4,3 +4,4 @@ frontend/node_modules/
 
 # Ignore environment files (optional)
 .env
+node_modules

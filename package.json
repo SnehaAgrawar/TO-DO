@@ -1,0 +1,13 @@
+{
+    "name": "to-do-app",
+    "version": "1.0.0",
+    "scripts": {
+      "start": "concurrently \"npm run start:backend\" \"npm run dev:frontend\"",
+      "start:backend": "cd backend && node server.js",  
+      "dev:frontend": "cd frontend && npm run dev"      
+    },
+    "devDependencies": {
+      "concurrently": "^6.0.0"
+    }
+  }
+  
